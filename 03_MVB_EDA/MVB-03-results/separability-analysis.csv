@@ -1,0 +1,6 @@
+Feature,Type,Metric,Value
+Pathogen_Present,Categorical,Class match rate,93.8%
+Hemoglobin,Numeric,Naive threshold accuracy,93.8%
+Platelets,Numeric,Naive threshold accuracy,86.0%
+WBC_Blood_Count,Numeric,Naive threshold accuracy,93.8%
+CRP_Level,Numeric,Naive threshold accuracy,93.7%

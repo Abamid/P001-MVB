@@ -1,0 +1,17 @@
+Feature,Diagnosis,Mean,Median,Min,Max,Std
+Age,Bacterial,50.83,51.0,0,118,20.15
+Age,Viral,37.05,34.0,0,117,17.43
+WBC_Count,Bacterial,15039.53,15629.0,2008,23870,3928.03
+WBC_Count,Viral,8034.33,7274.0,2304,24716,3861.58
+Protein_Level,Bacterial,139.36,142.0,10,299,50.98
+Protein_Level,Viral,53.7,41.0,2,297,50.74
+Glucose_Level,Bacterial,36.27,25.0,1,148,37.54
+Glucose_Level,Viral,68.03,62.0,3,148,24.02
+Hemoglobin,Bacterial,5.36,5.0,1,18,3.31
+Hemoglobin,Viral,14.46,15.0,1,18,3.15
+WBC_Blood_Count,Bacterial,15427.45,15698.0,4210,19991,3122.82
+WBC_Blood_Count,Viral,7615.71,7239.5,4022,19961,2877.61
+Platelets,Bacterial,134893.46,126412.0,100088,398628,44576.69
+Platelets,Viral,265750.0,265253.0,101504,399479,79062.69
+CRP_Level,Bacterial,36.71,36.0,2,99,13.53
+CRP_Level,Viral,8.48,3.0,0,99,19.12

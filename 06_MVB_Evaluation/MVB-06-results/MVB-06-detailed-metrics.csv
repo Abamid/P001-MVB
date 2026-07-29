@@ -1,0 +1,7 @@
+Model,Bacterial_Recall,Bacterial_Precision,False_Negatives,False_Positives,TN,TP
+LR_A,0.958,0.9268,5,9,99,114
+RF_A,0.9496,0.9417,6,7,101,113
+XGB_A,0.9412,0.9412,7,7,101,112
+LR_B,0.958,0.9194,5,10,98,114
+RF_B,0.9496,0.9417,6,7,101,113
+XGB_B,0.9412,0.9412,7,7,101,112

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Colab
+.config/
+
+# VS Code
+.vscode/
+
+# Mac/Linux temporary files
+*.swp
+
+# Keep trained models for Streamlit deployment
+# *.pkl

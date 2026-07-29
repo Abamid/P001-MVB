@@ -1,0 +1,6 @@
+Decision,Action,Rationale,Decision_Date
+Pathogen_Present,Two feature sets created,Near-perfect proxy (94% match) - avoid trivial model; supports Responsible AI comparison,2026-07-25
+Multicollinearity,"Retained, documented only",Tree-based models handle natively; dropping risks losing signal,2026-07-25
+CSF-to-blood glucose ratio,Not engineered,No paired blood glucose column exists in dataset,2026-07-25
+Categorical encoding,"Label encoding (0/1), original column names retained","Binary categories - equivalent to one-hot, simpler, cleaner for downstream stages",2026-07-25
+Target encoding,"Bacterial=1, Viral=0",Aligns with proposal priority on Bacterial recall/sensitivity,2026-07-25

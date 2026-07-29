@@ -1,0 +1,7 @@
+FeatureSet,Model,Accuracy,Precision,Recall,F1,ROC_AUC
+A_Full,LogisticRegression,0.9383,0.9268,0.958,0.9421,0.9582
+A_Full,RandomForest,0.9427,0.9417,0.9496,0.9456,0.9922
+A_Full,XGBoost,0.9383,0.9412,0.9412,0.9412,0.9928
+B_Restricted,LogisticRegression,0.9339,0.9194,0.958,0.9383,0.9568
+B_Restricted,RandomForest,0.9427,0.9417,0.9496,0.9456,0.9919
+B_Restricted,XGBoost,0.9383,0.9412,0.9412,0.9412,0.9928
