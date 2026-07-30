@@ -17,6 +17,7 @@ import pickle
 import shap
 import matplotlib.pyplot as plt
 from datetime import datetime
+from pathlib import Path
 
 # ============================================================
 # Page config
@@ -24,16 +25,20 @@ from datetime import datetime
 st.set_page_config(page_title="MVB Meningitis Classifier", layout="wide")
 
 # ============================================================
-# Load model, scaler, and SHAP explainer (fitted once on a
-# representative background sample, not the full training set)
+# Load model, scaler, and SHAP explainer — self-contained paths
+# relative to this file's own location, not the working directory
 # ============================================================
 @st.cache_resource
 def load_artifacts():
-    with open("../05_MVB_Model-Training/Models/MVB-05-lr-B.pkl", "rb") as f:
+    BASE_DIR = Path(__file__).resolve().parent
+    MODELS_DIR = BASE_DIR / "models"
+
+    with open(MODELS_DIR / "MVB-05-lr-B.pkl", "rb") as f:
         model = pickle.load(f)
-    with open("../05_MVB_Model-Training/Models/MVB-05-scaler-B.pkl", "rb") as f:
+    with open(MODELS_DIR / "MVB-05-scaler-B.pkl", "rb") as f:
         scaler = pickle.load(f)
-    df_b = pd.read_csv("../04_MVB_Feature-Engineering/MVB-04-results/MVB-04-feature-set-B-restricted.csv")
+
+    df_b = pd.read_csv(MODELS_DIR / "MVB-04-feature-set-B-restricted.csv")
     feature_cols = [c for c in df_b.columns if c != "Diagnosis"]
     X_train_background = scaler.transform(df_b[feature_cols])
     # Use a representative sample rather than the full training set — reduces memory
