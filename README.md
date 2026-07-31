@@ -172,7 +172,7 @@ P001-MVB/
 
 Each stage folder contains a Jupyter notebook, a markdown documentation file, and any generated figures/results — see the individual `MVB-##-*-notes.md` files for full detail on that stage's decisions and findings.
 
-> **Note:** Folders `10_MVB_Documentation/` and `11_MVB_Presentation/` are planned but not yet created — this structure reflects the repository as it currently exists.
+> **Repository Status:** The repository currently contains the complete end-to-end machine learning workflow from project proposal through deployment. Presentation materials are being finalised and will be added to the `11_MVB_Presentation/` directory. The repository will continue to evolve as additional validation studies, documentation, and future enhancements are completed.
 
 ---
 
