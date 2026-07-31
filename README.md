@@ -464,6 +464,22 @@ P001-MVB serves as a research prototype demonstrating Explainable and Responsibl
 
 ---
 
+## Citation
+
+If you reference or build upon this project, please cite it as:
+
+```text
+Amidu, A. (2026).
+P001-MVB: Explainable and Responsible AI for Differentiating
+Bacterial and Viral Meningitis — A Clinical Decision Support System.
+GitHub Repository:
+https://github.com/Abamid/P001-MVB
+```
+
+Please also acknowledge the 3MTT DeepTech Cohort 2 – Data Science / Machine Learning Mentorship Programme where appropriate.
+
+---
+
 ## Acknowledgements
 
 Developed as part of the 3MTT DeepTech Cohort 2 mentorship programme, under mentorship from Chukwukadibia Onyekwere.
