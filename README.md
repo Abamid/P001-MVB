@@ -11,13 +11,41 @@ A Clinical Decision Support System | 3MTT DeepTech Cohort 2 — DS/ML Mentorship
 
 ## Live Demo
 
-**Streamlit Community Cloud**
+## Live Resources
 
-Deployment in progress. The live application URL will be added here after successful deployment.
+### 🚀 Live Streamlit Application
+
+https://p001-mvb-iq6ziqmh6yr9tbdamggaqc.streamlit.app/
+
+**Launch the deployed application to explore:**
+
+- Interactive clinical decision support
+- Logistic Regression (Restricted Feature Set) prediction
+- SHAP feature-level explanations
+- Pre-Decision Verification Checkpoint (PDVC)
+- Confidence scoring
+- Audit log generation
+- Responsible AI governance safeguards
+
+---
+
+### 🐙 GitHub Repository
+
+https://github.com/Abamid/P001-MVB
+
+Complete source code, notebooks, documentation, governance artefacts, and deployment files.
+
+---
+
+### 📊 Presentation
+
+**Placeholder:** Final presentation (PDF) will be linked here.
+
+---
 
 ### Application Preview
 
-*A screenshot of the deployed Streamlit application will be added after deployment.*
+**Placeholder:** Insert a full-width screenshot of the deployed Streamlit home screen here.
 
 ---
 
