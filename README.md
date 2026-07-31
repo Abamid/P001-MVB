@@ -37,7 +37,11 @@ Complete source code, notebooks, documentation, governance artefacts, and deploy
 
 ### 📊 Presentation
 
-**Placeholder:** Final presentation (PDF) will be linked here.
+The complete presentation for this project is available below.
+
+📄 **Presentation (PDF)**
+
+[Download the P001-MVB Presentation](11_MVB_Presentation/P001-MVB_Presentation.pdf)
 
 ---
 
