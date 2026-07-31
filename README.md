@@ -41,9 +41,35 @@ Complete source code, notebooks, documentation, governance artefacts, and deploy
 
 ---
 
-### Application Preview
+## Application Preview
 
-**Placeholder:** Insert a full-width screenshot of the deployed Streamlit home screen here.
+The following screenshots demonstrate the deployed Streamlit application and its Responsible AI workflow.
+
+### Home Screen
+
+![Home Screen](10_MVB_Documentation/Figures/home_screen.jpg)
+
+---
+
+### AI Decision Support Output
+
+![Prediction Results](10_MVB_Documentation/Figures/prediction_results.jpg)
+
+---
+
+### SHAP Explainability
+
+![SHAP Explanation](10_MVB_Documentation/Figures/shap_explanation.jpg)
+
+---
+
+### Pre-Decision Verification Checkpoint (PDVC)
+
+![PDVC Verification](10_MVB_Documentation/Figures/pdvc_verification.jpg)
+
+---
+
+These screenshots illustrate the complete Explainable and Responsible AI workflow implemented within the deployed Streamlit application—from patient data entry and model prediction through explainability and mandatory governance verification.
 
 ---
 
