@@ -95,6 +95,22 @@ This transforms Responsible AI from a static governance document into an operati
 
 ---
 
+## Key Features
+
+P001-MVB delivers an end-to-end Responsible AI clinical decision-support system featuring:
+
+- 🧠 **Explainable Machine Learning** using Logistic Regression
+- 🔍 **SHAP feature-level explanations** for every prediction
+- 🛡️ **Responsible AI Governance** through a Model Card and AI Risk Assessment
+- ✅ **Pre-Decision Verification Checkpoint (PDVC)** for mandatory clinician review when governance triggers are activated
+- 👨‍⚕️ **Human-in-the-Loop Decision Support** that reinforces clinician authority rather than replacing it
+- 📊 **Confidence scoring** to communicate prediction certainty
+- 📝 **Audit log generation** supporting accountability and traceability
+- 🌐 **Interactive Streamlit deployment** demonstrating the complete workflow
+- 📚 **Comprehensive documentation** covering the full machine learning lifecycle from proposal through deployment
+
+---
+
 ## Objectives
 
 1. Build a classifier differentiating bacterial from viral meningitis using CSF and blood laboratory features.
