@@ -271,13 +271,73 @@ Rather than serving as a visualisation tool alone, SHAP forms an integral compon
 
 ## Responsible AI Governance
 
-This project treats governance as a core deliverable, not an afterthought. Three documents in `08_MVB_Responsible-AI-Governance/`:
+Responsible AI is not presented as an add-on to this project—it is embedded throughout the machine learning lifecycle and the deployed application.
 
-- **[Model Card](08_MVB_Responsible-AI-Governance/MVB-08-RAI-Model-Card.md)** — intended use, performance, training data characterization, limitations, prohibited uses
-- **[AI Risk Assessment](08_MVB_Responsible-AI-Governance/MVB-08-RAI-AI-Risk-Assessment.md)** — potential harms, failure modes, confidence thresholds, out-of-distribution risks
-- **[Pre-Decision Verification Checkpoint](08_MVB_Responsible-AI-Governance/MVB-08-RAI-Verification-Checkpoint.md)** — six concrete, evidence-grounded conditions under which a prediction requires mandatory clinician review before it can inform any decision
+P001-MVB was designed to demonstrate that high-performing AI systems should also be **transparent, accountable, explainable, and governed** before they are trusted to support real-world decisions.
 
-The Verification Checkpoint isn't just documented — it's implemented as live logic in the deployed application (see below).
+### Governance Framework
+
+The project implements three complementary Responsible AI artefacts:
+
+### 📄 Model Card
+
+The Model Card documents:
+
+- Intended use
+- Intended users
+- Training data characteristics
+- Performance metrics
+- Known limitations
+- Ethical considerations
+- Prohibited uses
+- Deployment constraints
+
+---
+
+### ⚠️ AI Risk Assessment
+
+The AI Risk Assessment identifies and evaluates potential risks associated with deploying the model, including:
+
+- False-negative clinical risk
+- Automation bias
+- Overconfidence in AI predictions
+- Out-of-distribution inputs
+- Dataset limitations
+- Human oversight requirements
+
+The assessment also defines mitigation strategies that reduce these risks during deployment.
+
+---
+
+### ✅ Pre-Decision Verification Checkpoint (PDVC)
+
+The **Pre-Decision Verification Checkpoint (PDVC)** is the principal innovation introduced by P001-MVB.
+
+Rather than allowing predictions to directly influence clinical decisions, the PDVC evaluates predefined governance conditions before a prediction can be considered.
+
+When one or more governance triggers are activated, the application requires mandatory clinician verification before the prediction may inform patient management.
+
+The deployed prototype currently implements:
+
+- Confidence-based verification triggers
+- Clinician-requested manual verification
+- Structured verification guidance
+- Prediction audit logging
+- Human-in-the-loop decision support
+
+This approach reduces automation bias while reinforcing clinician authority and accountability.
+
+---
+
+### Responsible AI in Practice
+
+Unlike many AI projects where governance exists only as documentation, P001-MVB operationalises Responsible AI by embedding governance directly into the deployed application.
+
+Every prediction follows the workflow:
+
+**Prediction → SHAP Explanation → PDVC Evaluation → Clinician Verification (if required) → Clinical Decision**
+
+This transforms Responsible AI from a static compliance exercise into an active operational safeguard supporting safer AI-assisted decision-making.
 
 ---
 
