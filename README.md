@@ -197,17 +197,39 @@ Each stage folder contains the corresponding notebook, supporting documentation,
 
 ## Model Performance
 
-**Selected model: Logistic Regression, Feature Set B (Restricted)**
+**Final Selected Model**
+
+**Logistic Regression — Restricted Feature Set (Feature Set B)**
+
+The final deployment model was selected after evaluating **six machine learning models** across two feature sets.
+
+Unlike conventional machine learning projects that primarily optimise overall accuracy, P001-MVB prioritised **Bacterial Recall** because failing to identify bacterial meningitis presents the greatest clinical risk.
+
+### Performance Summary
 
 | Metric | Value |
-|---|---|
-| Accuracy | 0.934 |
-| Bacterial Recall | 0.958 |
-| Bacterial Precision | 0.919 |
-| False Negatives | 5 / 119 |
-| False Positives | 10 / 108 |
+|---------|------:|
+| Accuracy | **93.4%** |
+| Bacterial Recall | **95.8%** |
+| Bacterial Precision | **91.9%** |
+| False Negatives | **5 / 119** |
+| False Positives | **10 / 108** |
 
-Selected over Random Forest and XGBoost specifically because it achieved the **highest recall for the Bacterial class** — the priority metric given the clinical stakes of a missed diagnosis — despite those models showing higher ROC-AUC. Selected over an equally-performing Logistic Regression variant that included `Pathogen_Present` because this restricted version achieves near-identical performance **without depending on a near-proxy feature**. Full comparison in `06_MVB_Evaluation/MVB-06-evaluation-notes.md`.
+### Why This Model Was Selected
+
+The Logistic Regression model trained on the Restricted Feature Set was selected because it achieved the best overall balance between:
+
+- High Bacterial Recall (patient safety priority)
+- Strong predictive performance
+- Clinical interpretability
+- Explainable AI compatibility through SHAP
+- Responsible AI deployment requirements
+
+Although Random Forest and XGBoost achieved competitive performance, Logistic Regression aligned more closely with the project's objective of producing a transparent and clinically interpretable decision-support system.
+
+The Restricted Feature Set was also preferred because it excludes **Pathogen_Present**, a variable identified during exploratory analysis as a near-proxy for the target diagnosis. Removing this feature reduced the risk of data leakage while maintaining excellent predictive performance.
+
+Overall, the selected model reflects a deliberate balance between predictive performance, transparency, robustness, and Responsible AI principles rather than simply maximising benchmark metrics.
 
 ---
 
