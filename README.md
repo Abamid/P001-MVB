@@ -397,15 +397,38 @@ This demonstrates how Responsible AI can become an operational component of a de
 
 ---
 
-## Future Improvements
+## Future Roadmap
 
-- External validation using real clinical datasets.
-- Hyperparameter optimisation.
-- Cross-validation and calibration analysis.
-- User authentication and role-based access.
-- Persistent audit logging.
-- Integration with hospital information systems.
-- Automated data-quality validation (PDVC Trigger 6).
+P001-MVB serves as a research prototype demonstrating Explainable and Responsible AI for clinical decision support. Several enhancements are planned for future iterations:
+
+### Model Development
+
+- Validate the model using representative real-world clinical datasets.
+- Perform hyperparameter optimisation.
+- Implement cross-validation and probability calibration.
+- Evaluate additional explainable machine learning algorithms.
+
+### Responsible AI
+
+- Expand the Pre-Decision Verification Checkpoint (PDVC) with additional governance rules.
+- Implement comprehensive audit logging and reporting.
+- Add user authentication and role-based access control.
+- Develop governance dashboards for monitoring AI system behaviour.
+
+### Clinical Deployment
+
+- Integrate with electronic health record (EHR) systems.
+- Improve input validation and data quality assessment.
+- Conduct prospective clinical evaluation.
+- Explore regulatory readiness for real-world deployment.
+
+### Research
+
+- Extend the PDVC framework to additional high-impact healthcare AI applications.
+- Investigate human-AI collaboration strategies in clinical decision support.
+- Evaluate clinician trust and usability through user studies.
+
+> These enhancements represent future research directions and are not implemented in the current prototype.
 
 ---
 
