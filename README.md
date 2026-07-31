@@ -9,8 +9,6 @@ A Clinical Decision Support System | 3MTT DeepTech Cohort 2 — DS/ML Mentorship
 
 ---
 
-## Live Demo
-
 ## Live Resources
 
 ### 🚀 Live Streamlit Application
