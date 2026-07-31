@@ -152,27 +152,30 @@ P001-MVB delivers an end-to-end Responsible AI clinical decision-support system 
 
 ```text
 P001-MVB/
-├── README.md                          ← you are here
+├── README.md
 ├── LICENSE
 ├── requirements.txt
 ├── .gitignore
 │
-├── 00_MVB_Proposal/                   Project proposal
-├── 01_MVB_Data-Acquisition/           Dataset profiling
-├── 02_MVB_Data-Preparation/           Cleaning, validation
-├── 03_MVB_EDA/                        Exploratory analysis, separability findings
-├── 04_MVB_Feature-Engineering/        Feature Set A (Full) / B (Restricted)
-├── 05_MVB_Model-Training/             6 trained models (LR/RF/XGBoost × A/B)
-├── 06_MVB_Evaluation/                 Model comparison, final selection
-├── 07_MVB_Explainability/             SHAP analysis
-├── 08_MVB_Responsible-AI-Governance/  Model Card, Risk Assessment, PDVC framework
-├── 09_MVB_Deployment/                 Streamlit application
+├── 00_MVB_Proposal/                   Project proposal and planning
+├── 01_MVB_Data-Acquisition/           Data acquisition and dataset profiling
+├── 02_MVB_Data-Preparation/           Data cleaning, validation, preprocessing
+├── 03_MVB_EDA/                        Exploratory data analysis
+├── 04_MVB_Feature-Engineering/        Feature engineering and feature selection
+├── 05_MVB_Model-Training/             Machine learning model development
+├── 06_MVB_Evaluation/                 Model evaluation and selection
+├── 07_MVB_Explainability/             SHAP explainability analysis
+├── 08_MVB_Responsible-AI-Governance/  Model Card, AI Risk Assessment, PDVC
+├── 09_MVB_Deployment/
+│   └── 09_MVB_streamlit-app/          Streamlit application source code
+├── 10_MVB_Documentation/              Executive summary, architecture, figures
+├── 11_MVB_Presentation/               Presentation slides and supporting materials
 └── 99_MVB_Journal/                    Development journal
 ```
 
-Each stage folder contains a Jupyter notebook, a markdown documentation file, and any generated figures/results — see the individual `MVB-##-*-notes.md` files for full detail on that stage's decisions and findings.
+Each stage folder contains the corresponding notebook, supporting documentation, generated outputs, and project artefacts for that phase of development. Together, they document the complete machine learning lifecycle from project conception through deployment.
 
-> **Repository Status:** The repository currently contains the complete end-to-end machine learning workflow from project proposal through deployment. Presentation materials are being finalised and will be added to the `11_MVB_Presentation/` directory. The repository will continue to evolve as additional validation studies, documentation, and future enhancements are completed.
+> **Repository Status:** P001-MVB represents a complete end-to-end Explainable and Responsible AI project. Additional documentation, presentation materials, and future validation studies will continue to be added as the project evolves.
 
 ---
 
