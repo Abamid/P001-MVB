@@ -388,6 +388,38 @@ This demonstrates how Responsible AI can become an operational component of a de
 
 ---
 
+## Project Resources
+
+### 🚀 Live Application
+
+https://p001-mvb-iq6ziqmh6yr9tbdamggaqc.streamlit.app/
+
+---
+
+### 🐙 GitHub Repository
+
+https://github.com/Abamid/P001-MVB
+
+---
+
+### 📊 Presentation
+
+**Placeholder:** Presentation PDF will be added after final submission.
+
+---
+
+### 📄 Documentation
+
+**Placeholder:** Executive Summary and Architecture Documentation will be uploaded to the repository.
+
+---
+
+### 📱 QR Codes
+
+**Placeholder:** GitHub and Streamlit QR codes will be added after final documentation is completed.
+
+---
+
 ## Limitations
 
 - Training data could not be confirmed as real clinical data — it is characterized throughout this project as clinically-inspired but not clinically-calibrated, and reported performance metrics should not be read as real-world clinical performance estimates.
