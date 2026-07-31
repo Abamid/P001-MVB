@@ -228,24 +228,48 @@ The Verification Checkpoint isn't just documented — it's implemented as live l
 
 ## Deployment
 
-An interactive Streamlit application (`09_MVB_Deployment/09_MVB_streamlit-app/app.py`) implements:
+P001-MVB has been successfully deployed as an interactive **Streamlit Community Cloud** application, demonstrating the complete Explainable and Responsible AI workflow developed throughout this project.
 
-- The selected Logistic Regression (Feature Set B) model.
-- SHAP explanations (waterfall plot and ranked feature contribution table) for every prediction.
-- The Pre-Decision Verification Checkpoint (PDVC), with five of the six governance triggers fully implemented.
-- An audit log entry for every prediction.
-- A persistent research-prototype warning and human-in-the-loop decision support messaging.
+### Live Application
 
-### Streamlit Community Cloud
+🚀 **Streamlit App:**  
+https://p001-mvb-iq6ziqmh6yr9tbdamggaqc.streamlit.app/
 
-Deployment is currently in progress.
+🐙 **GitHub Repository:**  
+https://github.com/Abamid/P001-MVB
 
-Once deployment is complete, this section will include:
+---
 
-- **Live Application:** *URL to be added*
-- **GitHub Repository:** *URL to be added*
+### Application Features
 
-The application will be publicly accessible through Streamlit Community Cloud and will run directly from the GitHub repository.
+The deployed application implements:
+
+- Logistic Regression (Restricted Feature Set) prediction model
+- SHAP feature-level explanations for every prediction
+- Confidence scoring (High / Moderate / Low)
+- Pre-Decision Verification Checkpoint (PDVC)
+- Responsible AI governance safeguards
+- Human-in-the-loop decision support
+- Prediction audit log generation
+- Research prototype safety notice
+
+---
+
+### Responsible AI in Practice
+
+Unlike many demonstration applications that only display predictions, the deployed prototype embeds governance directly into the prediction workflow.
+
+Every prediction is accompanied by:
+
+- Explainable AI using SHAP
+- Confidence assessment
+- Verification trigger evaluation
+- Mandatory clinician review whenever PDVC conditions are activated
+- Structured audit logging
+
+This demonstrates how Responsible AI can become an operational component of a deployed AI system rather than remaining solely as documentation.
+
+> **Note:** This application is intended exclusively for research, education, and demonstration purposes. It has not undergone clinical validation or regulatory approval and must never be used for autonomous medical decision-making.
 
 ---
 
