@@ -55,6 +55,46 @@ The governance approach is informed by a real-world AI deployment failure encoun
 
 ---
 
+## Why This Project Is Different
+
+Many healthcare AI projects stop after producing an accurate prediction.
+
+While predictive performance is important, real-world AI adoption also depends on **transparency, trust, governance, and human oversight**.
+
+P001-MVB was intentionally designed to move beyond prediction by integrating Responsible AI principles directly into the deployed clinical decision-support application.
+
+The project combines four complementary components:
+
+- **Explainable Machine Learning** using Logistic Regression
+- **SHAP feature-level explanations** for every prediction
+- **Responsible AI governance** through a Model Card and AI Risk Assessment
+- **Pre-Decision Verification Checkpoint (PDVC)** requiring clinician verification whenever predefined governance conditions are activated
+
+Rather than replacing clinicians, the system supports clinical decision-making by ensuring that higher-risk predictions receive structured human verification before influencing patient care.
+
+### Key Innovation
+
+The primary innovation of this project is the **Pre-Decision Verification Checkpoint (PDVC).**
+
+Instead of treating Responsible AI as documentation produced after model development, P001-MVB embeds governance directly into the prediction workflow.
+
+The PDVC:
+
+- Detects higher-risk predictions.
+- Evaluates predefined governance triggers.
+- Requires mandatory clinician verification before any prediction can influence a clinical decision.
+- Promotes transparency through Explainable AI.
+- Reduces automation bias.
+- Reinforces clinician authority and accountability.
+
+This transforms Responsible AI from a static governance document into an operational safeguard implemented within a working AI application.
+
+> **Project Philosophy:**  
+> **Prediction → Explanation → Verification → Clinical Decision**  
+> AI supports clinicians; it does **not** replace them.
+
+---
+
 ## Objectives
 
 1. Build a classifier differentiating bacterial from viral meningitis using CSF and blood laboratory features.
