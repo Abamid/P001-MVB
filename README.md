@@ -436,9 +436,9 @@ Complete source code, notebooks, governance artefacts, deployment files, and pro
 
 ### 📊 Presentation
 
-📄 **Project Presentation (PDF)**
+📊 **Project Presentation (PowerPoint)**
 
-[Download the P001-MVB Presentation](11_MVB_Presentation/P001-MVB_Presentation.pdf)
+[Download the P001-MVB Presentation (.pptx)](11_MVB_Presentation/P001-MVB_Presentation.pptx)
 
 ---
 
