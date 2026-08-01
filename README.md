@@ -424,29 +424,43 @@ This demonstrates how Responsible AI can become an operational component of a de
 
 https://p001-mvb-iq6ziqmh6yr9tbdamggaqc.streamlit.app/
 
+Explore the deployed Explainable and Responsible AI clinical decision-support application featuring SHAP explainability, the Pre-Decision Verification Checkpoint (PDVC), confidence scoring, and audit logging.
+
 ---
 
 ### 🐙 GitHub Repository
 
 https://github.com/Abamid/P001-MVB
 
+Complete source code, notebooks, governance artefacts, deployment files, and project documentation.
+
 ---
 
 ### 📊 Presentation
 
-**Placeholder:** Presentation PDF will be added after final submission.
+📄 **Project Presentation (PDF)**
+
+[Download the P001-MVB Presentation](11_MVB_Presentation/P001-MVB_Presentation.pdf)
 
 ---
 
 ### 📄 Documentation
 
-**Placeholder:** Executive Summary and Architecture Documentation will be uploaded to the repository.
+#### Executive Summary
+
+Prepared for the **3MTT DeepTech Cohort 2 End-of-Cohort Project Presentation**, this document provides a concise overview of the project's motivation, methodology, solution, impact, and future roadmap.
+
+📄 **PDF**
+
+[Download the Executive Summary](10_MVB_Documentation/P001-MVB_Executive_Summary.pdf)
+
+Additional documentation and supporting figures are available in the `10_MVB_Documentation` folder.
 
 ---
 
 ### 📱 QR Codes
 
-**Placeholder:** GitHub and Streamlit QR codes will be added after final documentation is completed.
+*QR codes for the GitHub repository and deployed Streamlit application will be added in a future update.*
 
 ---
 
