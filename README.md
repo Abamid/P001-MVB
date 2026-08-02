@@ -37,7 +37,13 @@ Complete source code, notebooks, documentation, governance artefacts, and deploy
 
 ### 📊 Presentation
 
-📊 **Project Presentation (PowerPoint)**
+The project presentation summarises the problem, methodology, model development, Explainable AI, Responsible AI governance, deployment, results, and future work.
+
+📄 **Presentation (PDF)**
+
+[Download the P001-MVB Presentation (PDF)](11_MVB_Presentation/P001-MVB_Presentation.pdf)
+
+📽️ **Presentation (PowerPoint)**
 
 [Download the P001-MVB Presentation (.pptx)](11_MVB_Presentation/P001-MVB_Presentation.pptx)
 
@@ -436,7 +442,13 @@ Complete source code, notebooks, governance artefacts, deployment files, and pro
 
 ### 📊 Presentation
 
-📊 **Project Presentation (PowerPoint)**
+The project presentation summarises the problem, methodology, model development, Explainable AI, Responsible AI governance, deployment, results, and future work.
+
+📄 **Presentation (PDF)**
+
+[Download the P001-MVB Presentation (PDF)](11_MVB_Presentation/P001-MVB_Presentation.pdf)
+
+📽️ **Presentation (PowerPoint)**
 
 [Download the P001-MVB Presentation (.pptx)](11_MVB_Presentation/P001-MVB_Presentation.pptx)
 
